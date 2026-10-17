@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Al-Nur Quran & Prayer Times",
+  "short_name": "Al-Nur Quran",
+  "description": "The Holy Quran with offline audio recitations, daily prayer times with Adhan notifications, and Qibla compass.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#042017",
+  "background_color": "#02120d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

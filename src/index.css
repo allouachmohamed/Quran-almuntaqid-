@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Amiri', 'Traditional Arabic', serif;
+    --font-ui: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-ui);
+    background-color: #02120d;
+    color: #ecfdf5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Ornate Arabic Quran script */
+  .font-serif {
+    font-family: var(--font-arabic);
+  }
+
+  .font-sans {
+    font-family: var(--font-ui);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #02120d;
+}
+::-webkit-scrollbar-thumb {
+  background: #064e3b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}

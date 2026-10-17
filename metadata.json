@@ -1,0 +1,6 @@
+{
+  "name": "Al-Nur Quran & Prayer Times",
+  "description": "The Holy Quran with offline audio recitations, verse-by-verse audio player, daily prayer times with Adhan notifications, and Qibla finder.",
+  "requestFramePermissions": ["geolocation", "notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
